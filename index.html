@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>현빈이의 시간표</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .border{    
+        height: 600px; width: 700px;
+    }
+    table, th, td {
+        border: 1.5px solid black;
+        border-collapse: collapse;
+        padding: 10px, 20px;
+    }
+    body{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    caption{
+        margin: 30px;
+    }
+    .A{
+        background-color: #F7D358;
+    }
+    .B{
+        background-color: aquamarine
+    }
+    .C{
+        background-color: #7676fd;
+    }
+    .D{
+        background-color: #9FF781;
+    }
+    .E{
+        background-color: #F7D358;
+        height: 50px;
+    }
+</style>
+<body></body>
+    <table class = "border">
+        <caption><h2>현빈이의 시간표</h2></caption>
+        <thead align="center" height = 70px>
+            <tr class="A">
+                <th>시간 ⧵ 요일</th>
+                <th>월요일</th>
+                <th>화요일</th>
+                <th>수요일</th>
+                <th>목요일</th>
+                <th>금요일</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <th>1교시</th>
+                <td class="B" rowspan="2">기초 <br>  306</td>
+                <td rowspan="2">컴그<br>B105</td>
+                <td>영어<br>206</td>
+                <td>과학<br>B101</td>
+                <td>영어<br>306</td>   
+            </tr>
+            <tr>
+                <th>2교시</th>
+                <td>체육<br>206</td>
+                <td class="C" rowspan="2">화면 <br>308</td>
+                <td>사회<br>306</td>
+            </tr>
+            <tr>
+                <th>3교시</th>
+                <td>과학<br>209</td>
+                <td>국사<br>206</td>
+                <td>종교<br>206</td>
+                <td>과학<br>B101</td>
+            </tr>
+            <tr>
+                <th>4교시</th>
+                <td>컴그<br>202</td>
+                <td class="D" rowspan="3">프밍<br>302</td>
+                <td>국사<br>206</td>
+                <td rowspan="2">음악<br>402</td>
+                <td>진로<br>306</td>
+            </tr>
+            <tr>
+                <th>5교시</th>
+                <td>미술<br>202</td>
+                <td rowspan="2">수학<br>209</td>
+                <td>국어<br>209</td>
+            </tr>
+            <tr>
+                <th>6교시</th>
+                <td>컴그<br>306</td>
+                <td>국어<br>406</td>
+                <td>사회<br>209</td>
+            </tr>
+            <tr>
+                <th>7교시</th>
+                <td>사회<br>207</td>
+                <td colspan="3"></td>
+                <td>국사<br>207</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="E">
+                <th colspan="6">노력하라~ 꿈의 실현을 위해^^</th>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="/School/10410 p.h.b/code02/list.html" target="blank">여행 기획서 바로가기</a>
+</body>
+</html>
